@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_format_derive_vars",
+  "source_file": "SAS-Code depression anxiety clean 2024-08-15.sas",
+  "source_blob_sha": "6cb213cb5f6839ec7531d3328d8ed7c947f77b8c",
+  "source_commit": "5e7286d3a509dedd6a7d6d4307094dad242dffb6",
+  "notes": "PROC FORMAT catalog subset plus the work_cat/jobstat/uicc_cat derivation logic from the source's main 'data crokus' step, run against a 10-row inline mock cohort (the original reads libname crokus, a DKFZ network share)."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_macro_adj_logistic",
+  "source_file": "SAS-Code depression anxiety clean 2024-08-15.sas",
+  "source_blob_sha": "6cb213cb5f6839ec7531d3328d8ed7c947f77b8c",
+  "source_commit": "5e7286d3a509dedd6a7d6d4307094dad242dffb6",
+  "notes": "The %adj macro's PROC LOGISTIC (CLASS with per-level ref= for eight predictors, MODEL, LSMEANS with diff/cl/adjust=bon/ilink, BY _imputation_), run against a 12-row already-imputed mock cohort. The two CONTRAST statements and their ods output contrasttest= capture are omitted: they trip a confirmed Jenner ODS OUTPUT gap (filed upstream separately, not owner-facing) where the base ContrastTest table is computed and printed correctly but never materialized as a dataset. Everything else in the macro is unchanged."
+}

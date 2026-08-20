@@ -1,0 +1,43 @@
+                                              Odds ratios (HADS_A_cutoff)
+
+
+  Obs          Skala        Effect  OddsRatioEst  LowerCL  UpperCL
+    1  HADS_A_cutoff  treatment2    0.9079733474        0        .
+    2  HADS_A_cutoff  treatment2    1.0459958955        0        .
+    3  HADS_A_cutoff  agesurvey     1.7474354179        0        .
+    4  HADS_A_cutoff  agesurvey     0.5937043622        0        .
+    5  HADS_A_cutoff  agesurvey     0.7051124642        0        .
+    6  HADS_A_cutoff  tumorsex       1.001532976        0        .
+    7  HADS_A_cutoff  tumorsex      0.8230034013        0        .
+    8  HADS_A_cutoff  tumorsex      0.7051124643        0        .
+    9  HADS_A_cutoff  tumorsex      1.2586485808        0        .
+   10  HADS_A_cutoff  uicc_cat       1.270949663        0        .
+   11  HADS_A_cutoff  uicc_cat      0.7051124643        0        .
+   12  HADS_A_cutoff  uicc_cat      0.8230034013        0        .
+   13  HADS_A_cutoff  survivor      2.2209024569        0        .
+   14  HADS_A_cutoff  cancer_phase  0.5937043623        0        .
+   15  HADS_A_cutoff  cancer_phase  1.2709496628        0        .
+   16  HADS_A_cutoff  cancer_phase  0.7051124642        0        .
+   17  HADS_A_cutoff  self_covid    1.2709496628        0        .
+   18  HADS_A_cutoff  bmi           1.2586485809        0        .
+   19  HADS_A_cutoff  bmi           1.2709496626        0        .
+   20  HADS_A_cutoff  educat        0.7545683589        0        .
+   21  HADS_A_cutoff  educat        1.2586485808        0        .
+   22  HADS_A_cutoff  domestic      0.7051124643        0        .
+   23  HADS_A_cutoff  work_cat       0.887488802        0        .
+   24  HADS_A_cutoff  work_cat      1.0459958954        0        .
+   25  HADS_A_cutoff  income_cat    0.7213874953        0        .
+   26  HADS_A_cutoff  iso01rel      1.1296827207        0        .
+   27  HADS_A_cutoff  iso02sh        1.764513534        0        .
+   28  HADS_A_cutoff  iso03phys      1.127953594        0        .
+   29  HADS_A_cutoff  iso04care     1.3883425799        0        .
+   30  HADS_A_cutoff  iso05pub       0.738675382        0        .
+
+                                                LS-means (HADS_A_cutoff)
+
+
+  Obs          Skala      Effect  Level          Mean           StdErr
+    1  HADS_A_cutoff  treatment2  0      0.5660573058   967.7235940779
+    2  HADS_A_cutoff  treatment2  1      0.5422099417    1116.52970857
+    3  HADS_A_cutoff  treatment2  2      0.5770688728  1065.0177763441
+

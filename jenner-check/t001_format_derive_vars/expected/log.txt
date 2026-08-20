@@ -1,0 +1,30 @@
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT survivor defined (2 ranges).
+NOTE: FORMAT uicc defined (7 ranges).
+NOTE: FORMAT work_catx defined (3 ranges).
+NOTE: DATA crokus
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote crokus (10 rows, 22 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA crokus
+
+
+NOTE: Read 10 rows from crokus.
+NOTE: Wrote crokus (10 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Derived work_cat / uicc_cat / jobstat after mock cohort cleanup.
+NOTE: PROC PRINT data=crokus
+
+NOTE: PROC PRINT completed: 10 observations printed, 6 variables
+NOTE: Option TITLE changed to Cross-tab of derived work category by survivor status.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.

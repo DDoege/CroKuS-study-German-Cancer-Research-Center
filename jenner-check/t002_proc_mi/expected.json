@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T08:22:00Z",
+  "_captured_run_id": "r_ba9dd612928743568ee3a6ccbaed75ad",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote crokus (8 rows, 34 columns).",
+    "NOTE: Output dataset crokus_MI created with 24 observations.",
+    "NOTE: PROC MI completed.",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
