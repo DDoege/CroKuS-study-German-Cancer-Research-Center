@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T08:32:00Z",
+  "_captured_run_id": "r_510bdd2a366c4947a502a94626d2e5cb",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote crokus_MI (12 rows, 3 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC TTEST statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

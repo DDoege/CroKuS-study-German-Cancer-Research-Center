@@ -1,0 +1,23 @@
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT survivor defined (2 ranges).
+NOTE: DATA crokus_MI
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote crokus_MI (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Sample description (Table 1/2) after MI.
+NOTE: Option TITLE2 changed to Mean age, SD and sample size, overall group.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE2 changed to Mean age, SD and sample size, patients vs. survivors.
+NOTE: PROC TTEST data=crokus_MI
+
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.

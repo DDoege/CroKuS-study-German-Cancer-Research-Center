@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_proc_mi",
+  "source_file": "SAS-Code depression anxiety clean 2024-08-15.sas",
+  "source_blob_sha": "6cb213cb5f6839ec7531d3328d8ed7c947f77b8c",
+  "source_commit": "5e7286d3a509dedd6a7d6d4307094dad242dffb6",
+  "notes": "The PROC MI multiple-imputation step, copied verbatim (round/minimum/maximum vectors, minmaxiter, VAR list) with nimpute reduced from 25 to 3 and an 8-row inline mock cohort whose values respect the source's own min/max bounds per variable."
+}

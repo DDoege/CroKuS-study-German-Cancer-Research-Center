@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T08:35:00Z",
+  "_captured_run_id": "r_5d135814ee7e4ea38798c598462de3d7",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote pct (4 rows, 3 columns).",
+    "NOTE: Wrote freq (6 rows, 4 columns).",
+    "NOTE: Option TITLE changed to Prevalence Anxiety/ Depression in subgroups."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

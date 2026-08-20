@@ -1,0 +1,38 @@
+                            Derived work_cat / uicc_cat / jobstat after mock cohort cleanup
+
+
+  Obs  tid                        work_cat  jobstat  uicc     Stage (UICC)   survivor
+    1    1                       Full-time        1  I                   I  Survivors
+    2    2            Part-time or Minijob        2  II                 II   Patients
+    3    3  Not employed or voluntary work        3  X                   I  Survivors
+    4    4  Not employed or voluntary work        .  III               III   Patients
+    5    5            Part-time or Minijob        4  IV    n.a. (lymphoma)  Survivors
+    6    6                       Full-time        7  0                   .   Patients
+    7    7                               .        5  I                   I  Survivors
+    8    8            Part-time or Minijob        6  II                 II   Patients
+    9    9                       Full-time        1  III               III  Survivors
+   10   10            Part-time or Minijob        2  X                  II   Patients
+
+                                 Cross-tab of derived work category by survivor status
+
+                                                   The FREQ Procedure
+
+Table of work_cat by survivor
+
+Frequency
+Percent
+
+work_cat                       |  Patients | Survivors |      Total
+-------------------------------+-----------+-----------+-----------
+Full-time                      |         1 |         2 |          3
+                               |     11.11 |     22.22 |      33.33
+-------------------------------+-----------+-----------+-----------
+Part-time or Minijob           |         3 |         1 |          4
+                               |     33.33 |     11.11 |      44.44
+-------------------------------+-----------+-----------+-----------
+Not employed or voluntary work |         1 |         1 |          2
+                               |     11.11 |     11.11 |      22.22
+-------------------------------+-----------+-----------+-----------
+Total                          |         5 |         4 |          9
+                               |     55.56 |     44.44 |     100.00
+
